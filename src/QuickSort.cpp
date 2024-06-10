@@ -1,4 +1,5 @@
 #include "../include/QuickSort.h"
+#include <vector>
 
 int partition(std::vector<int>& arr, int low, int high) {
     int pivot = arr[high];
