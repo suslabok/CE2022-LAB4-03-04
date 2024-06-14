@@ -5,14 +5,14 @@
 
 int main() {
     // Insertion sort
-    int array_size = 1000;
+    int array_size = 20000;
 
     // Seed with a real random value
     std::random_device rd;
     // Initialize Mersenne Twister pseudo-random number generator
     std::mt19937 gen(rd());
     // Define the range for random numbers
-    std::uniform_int_distribution<> dis(0,1000);
+    std::uniform_int_distribution<> dis(0,20000);
 
     int random_numbers[array_size];
     // Generate random numbers
